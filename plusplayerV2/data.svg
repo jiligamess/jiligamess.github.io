@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#88888F;}
+	.st1{fill:#797781;}
+	.st2{fill:#58575D;}
+	.st3{fill:#EDEDED;}
+	.st4{fill:#D8D8DA;}
+</style>
+<rect x="42.67" y="90.67" class="st0" width="426.67" height="288"/>
+<g>
+	<rect x="256" y="90.67" class="st1" width="213.33" height="288"/>
+	<polygon class="st1" points="256,122.67 256,90.67 42.67,90.67 42.67,378.67 256,378.67 256,336 74.67,336 74.67,122.67 	"/>
+</g>
+<polygon class="st2" points="256,336 256,378.67 469.33,378.67 469.33,90.67 256,90.67 256,122.67 437.33,122.67 437.33,336 "/>
+<path class="st3" d="M0,368v21.33c0,17.67,14.33,32,32,32h448c17.67,0,32-14.33,32-32V368H0z"/>
+<path class="st4" d="M256,368v53.33h224c17.67,0,32-14.33,32-32V368H256z"/>
+</svg>
