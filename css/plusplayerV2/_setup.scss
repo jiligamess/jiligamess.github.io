@@ -1,0 +1,71 @@
+$baseColor: #ff9100;
+$fontSize:(
+	title-pc:3.5rem,
+	title-phone:2.5rem,
+	title-msphone:2rem,
+	txt-pc:1.75rem,
+	txt-phone:1.25rem,
+	txt-msphone:.9375rem,
+);
+$lineHeight:(
+	title-pc: 1em,
+	txt-pc: 1.35em,
+	txt-phone:1.35em,
+	txt-msphone:1.1em,
+);
+//基本設定
+@mixin flexboxSetting($justify){
+	display: flex;
+	justify-content: $justify;
+	flex-wrap:wrap;
+	@content;
+}
+
+
+//小螢幕電腦設定
+@mixin ms-pc-width() {
+	@media only screen and (max-width: 1279px){
+		@content;
+	}
+ }
+ //phone設定
+@mixin phone-width() {
+	@media only screen and (max-width: 812px){
+		@content;
+	}
+ }
+ @mixin ms-phone-width() {
+	@media only screen and (max-width: 600px){
+		@content;
+	}
+ }
+//行動裝置橫版
+ @mixin landscape-phone-width() {
+	@media only screen and (orientation:landscape) and (max-width: 812px) {
+		@content;
+	}
+ }
+
+ //pad直版
+ @mixin portrait-pad-width() {
+	@media screen and (min-width: 600px) and (max-aspect-ratio:3/4) {
+		@content;
+	}
+ }
+ //行動裝置直版
+ @mixin portrait-phone-width() {
+	@media only screen and (orientation: portrait) and (max-width: 500px){
+		@content;
+	}
+ }
+ @mixin ms-portrait-phone-width() {
+	@media only screen and (orientation: portrait) and (max-width: 420px){
+		@content;
+	}
+ }
+ @mixin mxs-portrait-phone-width() {
+	@media only screen and (orientation: portrait) and (max-width: 360px){
+		@content;
+	}
+ }
+

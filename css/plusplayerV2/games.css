@@ -1,0 +1,53 @@
+.wrapper {
+  min-height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.content_index .container:nth-child(odd) {
+  background-color: initial;
+}
+
+.top-deco {
+  color: #fff;
+}
+
+.gameDemos {
+  width: 95%;
+  margin: 0 auto;
+  min-height: 700px;
+  background-color: #000;
+  padding-top: 220px !important;
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 812px) {
+  .gameDemos {
+    padding-top: calc(70px + 13.54%) !important;
+  }
+}
+
+.gameDemos .content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+@media only screen and (max-width: 1279px) {
+  .gameDemos .content {
+    width: 100%;
+  }
+}
+
+.gameDemos .content .subtitile {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.gameDemos .content h2 {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
